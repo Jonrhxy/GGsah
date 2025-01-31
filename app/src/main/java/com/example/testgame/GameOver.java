@@ -16,8 +16,9 @@ public class GameOver extends AppCompatActivity {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.game_over);
         tvPoints = findViewById(R.id.tvPoints);
-        int points = getIntent().getExtras().getInt("points");
+        int points = getIntent().getExtras().getInt("points", 0);
         tvPoints.setText("" + points);
     }
 

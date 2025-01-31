@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     android:padding="16dp">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -23,10 +24,12 @@
             android:text="Exit"
             android:onClick="exit"/>
     </LinearLayout>
+
     <View
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_weight="1"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -35,7 +38,20 @@
         android:textSize="100sp"
         android:text="100"
         android:textColor="@android:color/white"
-        android:layout_marginBottom="50dp"/>
+        android:layout_marginBottom="20dp"/>
+
+    <!-- New congratulatory message -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Awesome job! Every piece of trash you dispose of properly helps reduce carbon emissions and keeps our planet clean. Keep making eco-friendly choices!"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:padding="16dp"/>
+
+
     <View
         android:layout_width="0dp"
         android:layout_height="0dp"
